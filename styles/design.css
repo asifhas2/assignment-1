@@ -88,3 +88,25 @@ color: #0000005f;
     text-align: center;
     padding-top: 40px;
 }
+.form{
+    list-style: none;
+}
+.acc{
+    /* border: 5px solid; */
+    font-size: 20px;
+}
+.action3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.btn-aryprim2{
+     background-color: #4E47FF;
+    font-weight:bold ;
+    font-size: 22px;
+    color: white;
+    padding:15px 20px ;
+    border-radius: 8px;
+    border: none;
+
+}
