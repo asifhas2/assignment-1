@@ -81,7 +81,7 @@ div ul li {
     color: #4d47fff9;
 }
 .sub-action2{
-font-size: 20px;
+font-size: 15px;
 color: #0000005f;
 }
 #asif{
@@ -93,7 +93,7 @@ color: #0000005f;
 }
 .acc{
     /* border: 5px solid; */
-    font-size: 20px;
+    font-size: 25px;
 }
 .action3{
     display: flex;
@@ -109,4 +109,20 @@ color: #0000005f;
     border-radius: 8px;
     border: none;
 
+}
+.form{
+    background-color: white;
+}
+footer{
+    /* border: 5px solid; */
+    margin: 130px;
+}
+.footer-title{
+    color: #5247FF;
+    font-size: 70px;
+    text-align: center;
+}
+.footer-item{
+    display: flex;
+    justify-content: space-around;
 }
