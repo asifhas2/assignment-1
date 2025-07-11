@@ -24,6 +24,7 @@
 header{
     background-image: url(../styles/Assets/Hero-bg.png);
     margin: 50px;
+    
 }
 .nav{
     display: flex;
@@ -31,10 +32,12 @@ header{
     margin-left: 100px;
     margin-right: 100px;
     border: none;
+    
  
 }
 nav ul li {
     list-style: none;
+    
 }
 nav li a {
     text-decoration: none;
@@ -93,6 +96,9 @@ color: #0000005f;
 .form{
     list-style: none;
     
+    
+    
+    
 }
 .acc{
     /* border: 5px solid; */
@@ -102,25 +108,35 @@ color: #0000005f;
     display: flex;
     justify-content: space-around;
     margin-top: 80px;
-    /* background-color:#cfcefa86; */
+    background-color:#cfcefa86;
+    border-radius: 15px;
 }
-.btn-aryprim2{
+.btn-primary2{
      background-color: #4E47FF;
     font-weight:bold ;
-    font-size: 22px;
+    font-size: 20px;
     color: white;
-    padding:15px 20px ;
+    padding:15px 15px ;
     border-radius: 8px;
     border: none;
-
+    transition: background-color 0.4s,font-size 0.4s,color 0.4s;
+}
+.btn-primary2:hover{
+    background-color: chartreuse;
+    color: cornsilk;
+    font-size: 30px;
 }
 .form{
-    background-color: white;
+    /* background-color: white; */
+  
+
+    
 }
 footer{
     border: none;
-    margin: 130px;
-        background-color: #cfcefa86;
+    /* padding: 30px 30px; */
+    margin: 100px;
+        /* background-color: #cfcefa86; */
 }
 .footer-title{
     color: #5247FF;
@@ -128,8 +144,11 @@ footer{
     text-align: center;
 }
 .footer-item{
-    display: flex;
-    justify-content: space-around;
+    display:flex;
+    justify-content: space-evenly;
+
+    
+
 }
 .icon{
     display: flex;
@@ -168,4 +187,23 @@ footer{
 }
 .action4{
     text-align:center;
+}
+input{
+    max-width: 200px;
+    height: 40px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 5;
+    border: 1px solid ;
+    border-radius:5px;
+}
+/* .animated-btn{ */
+    padding: 10px;
+    font-size: 16px;
+    background-color: chartreuse;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transform: scale(1.1);
+
 }
