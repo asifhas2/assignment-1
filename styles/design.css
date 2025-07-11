@@ -91,7 +91,7 @@ color: #0000005f;
 }
 #asif{
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .form{
     list-style: none;
@@ -175,6 +175,7 @@ footer{
 }
 .date{
     font-weight: 200;
+    font-size: 10px;
 }
 .action04{
     display: flex;
